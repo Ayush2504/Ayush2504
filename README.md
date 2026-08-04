@@ -214,18 +214,19 @@ flowchart LR
 
 ### 🎓 Certifications — 8x Microsoft Certified
 
-<p>
-  <a href="⟦CERT_VERIFY_URL_PL900⟧"><img src="https://img.shields.io/badge/PL--900-Power_Platform_Fundamentals-8B5CF6?style=flat-square" /></a>
-  <a href="⟦CERT_VERIFY_URL_MB910⟧"><img src="https://img.shields.io/badge/MB--910-D365_CRM_Fundamentals-8B5CF6?style=flat-square" /></a>
-  <a href="⟦CERT_VERIFY_URL_PL400⟧"><img src="https://img.shields.io/badge/PL--400-Power_Platform_Developer-8B5CF6?style=flat-square" /></a>
-  <a href="⟦CERT_VERIFY_URL_AZ900⟧"><img src="https://img.shields.io/badge/AZ--900-Azure_Fundamentals-8B5CF6?style=flat-square" /></a>
-  <br />
-  <a href="⟦CERT_VERIFY_URL_PL200⟧"><img src="https://img.shields.io/badge/PL--200-Power_Platform_Functional_Consultant-22D3EE?style=flat-square" /></a>
-  <a href="⟦CERT_VERIFY_URL_MB230⟧"><img src="https://img.shields.io/badge/MB--230-Customer_Service_Functional_Consultant-22D3EE?style=flat-square" /></a>
-  <a href="⟦CERT_VERIFY_URL_AZ204⟧"><img src="https://img.shields.io/badge/AZ--204-Developing_Solutions_for_Azure-22D3EE?style=flat-square" /></a>
-  <a href="⟦CERT_VERIFY_URL_AB900⟧"><img src="https://img.shields.io/badge/AB--900-Copilot_%26_Agent_Admin_Fundamentals-22D3EE?style=flat-square" /></a>
-</p>
+<sub>✅ Verified on LinkedIn — hover a badge, or click any to open the verified list.</sub>
 
+<p>
+  <a href="https://www.linkedin.com/in/ayushsoni25/details/certifications/"><img src="https://img.shields.io/badge/PL--900-Power_Platform_Fundamentals-8B5CF6?style=flat-square" title="Verified on LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/ayushsoni25/details/certifications/"><img src="https://img.shields.io/badge/MB--910-D365_CRM_Fundamentals-8B5CF6?style=flat-square" title="Verified on LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/ayushsoni25/details/certifications/"><img src="https://img.shields.io/badge/PL--400-Power_Platform_Developer-8B5CF6?style=flat-square" title="Verified on LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/ayushsoni25/details/certifications/"><img src="https://img.shields.io/badge/AZ--900-Azure_Fundamentals-8B5CF6?style=flat-square" title="Verified on LinkedIn" /></a>
+  <br />
+  <a href="https://www.linkedin.com/in/ayushsoni25/details/certifications/"><img src="https://img.shields.io/badge/PL--200-Power_Platform_Functional_Consultant-22D3EE?style=flat-square" title="Verified on LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/ayushsoni25/details/certifications/"><img src="https://img.shields.io/badge/MB--230-Customer_Service_Functional_Consultant-22D3EE?style=flat-square" title="Verified on LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/ayushsoni25/details/certifications/"><img src="https://img.shields.io/badge/AZ--204-Developing_Solutions_for_Azure-22D3EE?style=flat-square" title="Verified on LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/ayushsoni25/details/certifications/"><img src="https://img.shields.io/badge/AB--900-Copilot_%26_Agent_Admin_Fundamentals-22D3EE?style=flat-square" title="Verified on LinkedIn" /></a>
+</p>
 <br />
 
 <div align="center">
