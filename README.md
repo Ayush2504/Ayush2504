@@ -35,7 +35,9 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:8B5CF6,100:22D3EE&height=180&section=header&text=Ayush%20Soni&fontSize=48&fontColor=F1F5F9&animation=fadeIn&fontAlignY=40&desc=Dynamics%20365%20CRM%20%26%20Power%20Platform%20Architect%20%C2%B7%20AI%20Solutions%20Engineer&descAlignY=68&descSize=18" width="100%" alt="Ayush Soni" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,100:22D3EE&height=200&section=header&text=Ayush%20Soni&fontSize=52&fontColor=F1F5F9&animation=fadeIn&fontAlignY=38&desc=Dynamics%20365%20CRM%20Architect%20%C2%B7%20AI%20Solutions%20Engineer&descAlignY=58&descSize=18" width="100%" alt="Ayush Soni" />
+
 
 <a href="https://ayushsoni25.com">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=600&lines=Dynamics+365+CRM+%26+Power+Platform+Architect;AI+Agent+Engineering+%C2%B7+RAG+%C2%B7+Copilot+Studio;Senior+Associate+%40+PwC+%C2%B7+8x+Microsoft+Certified" alt="Typing SVG" />
