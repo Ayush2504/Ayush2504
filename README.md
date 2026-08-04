@@ -48,7 +48,7 @@
 <p>
   <!--<a href="⟦RESUME_URL⟧"><img src="https://img.shields.io/badge/Resume-Download-F1F5F9?style=for-the-badge&logo=readdotcv&logoColor=8B5CF6" alt="Resume" title="Download resume PDF" /></a>-->
   <a href="https://ayushsoni25.com"><img src="https://img.shields.io/badge/Portfolio-ayushsoni25.com-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio" title="Full case studies & impact log" /></a>
-  <a href="https://linkedin.com/in/⟦ayushsoni25⟧"><img src="https://img.shields.io/badge/LinkedIn-Connect-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/ayushsoni25"><img src="https://img.shields.io/badge/LinkedIn-Connect-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn" /></a>
   <a href="mailto:⟦contact@ayushsoni25.com⟧"><img src="https://img.shields.io/badge/Email-Reach%20out-8B5CF6?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>
 </p>
 
