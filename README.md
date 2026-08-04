@@ -46,10 +46,10 @@
 <img src="https://img.shields.io/badge/Available%20for-D365%20%2F%20Power%20Platform%20%2F%20AI%20collaborations-22D3EE?style=flat-square&labelColor=8B5CF6" alt="Available for collaborations" />
 
 <p>
-  <a href="⟦RESUME_URL⟧"><img src="https://img.shields.io/badge/Resume-Download-F1F5F9?style=for-the-badge&logo=readdotcv&logoColor=8B5CF6" alt="Resume" title="Download resume PDF" /></a>
+  <!--<a href="⟦RESUME_URL⟧"><img src="https://img.shields.io/badge/Resume-Download-F1F5F9?style=for-the-badge&logo=readdotcv&logoColor=8B5CF6" alt="Resume" title="Download resume PDF" /></a>-->
   <a href="https://ayushsoni25.com"><img src="https://img.shields.io/badge/Portfolio-ayushsoni25.com-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio" title="Full case studies & impact log" /></a>
   <a href="https://linkedin.com/in/⟦LINKEDIN_HANDLE⟧"><img src="https://img.shields.io/badge/LinkedIn-Connect-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn" /></a>
-  <a href="mailto:⟦EMAIL⟧"><img src="https://img.shields.io/badge/Email-Reach%20out-8B5CF6?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>
+  <a href="mailto:⟦contact@ayushsoni25.com⟧"><img src="https://img.shields.io/badge/Email-Reach%20out-8B5CF6?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>
 </p>
 
 </div>
@@ -64,8 +64,8 @@ $ cat about.json
 {
   "role": "Senior Associate, Dynamics 365 CRM & AI Solutions",
   "company": "PwC",
-  "location": "⟦CITY, COUNTRY⟧",
-  "open_to_relocation": ⟦true/false⟧,
+  "location": "⟦Noida, India⟧",
+  "open_to_relocation": ⟦false⟧,
   "experience": "5+ years",
   "certifications": 8,
   "focus": ["D365 CRM", "Power Platform", "Azure", "AI Agent Engineering"],
@@ -231,7 +231,7 @@ flowchart LR
 <div align="center">
 <i>Open to Dynamics 365, Power Platform & AI Engineering collaborations.</i>
 <br />
-<a href="https://ayushsoni25.com">ayushsoni25.com</a> · <a href="mailto:⟦EMAIL⟧">⟦EMAIL⟧</a>
+<a href="https://ayushsoni25.com">ayushsoni25.com</a> · <a href="mailto:⟦contact@ayushsoni25.com⟧">⟦EMAIL⟧</a>
 <br /><br />
 <sub>Last updated: August 2026</sub>
 </div>
