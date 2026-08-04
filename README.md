@@ -11,9 +11,15 @@
     ⟦GITHUB_USERNAME⟧  — must exactly match this repo's name to render on your profile
     ⟦LINKEDIN_HANDLE⟧  — your LinkedIn public profile slug
     ⟦EMAIL⟧            — an email you're comfortable publishing
+    ⟦RESUME_URL⟧       — direct link to a hosted PDF (Drive/Dropbox share link, or
+                          host it on the portfolio and link there)
     ⟦CERT_VERIFY_URL_*⟧ — Microsoft Learn / Credly verification link per cert
                           (leave the badge but drop the href if you'd rather
                           not publish direct verify links — your call)
+
+  Manually bump the "Last updated" line near the bottom every few months —
+  there's no Action doing it for you, and a stale-looking date undercuts an
+  otherwise-current page more than no date at all.
 -->
 
 <div align="center">
@@ -24,8 +30,11 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=600&lines=Dynamics+365+CRM+%26+Power+Platform+Architect;AI+Agent+Engineering+%C2%B7+RAG+%C2%B7+Copilot+Studio;Senior+Associate+%40+PwC+%C2%B7+8x+Microsoft+Certified" alt="Typing SVG" />
 </a>
 
+<img src="https://img.shields.io/badge/Available%20for-D365%20%2F%20Power%20Platform%20%2F%20AI%20collaborations-22D3EE?style=flat-square&labelColor=8B5CF6" alt="Available for collaborations" />
+
 <p>
-  <a href="https://ayushsoni25.com"><img src="https://img.shields.io/badge/Portfolio-ayushsoni25.com-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio" /></a>
+  <a href="⟦RESUME_URL⟧"><img src="https://img.shields.io/badge/Resume-Download-F1F5F9?style=for-the-badge&logo=readdotcv&logoColor=8B5CF6" alt="Resume" title="Download resume PDF" /></a>
+  <a href="https://ayushsoni25.com"><img src="https://img.shields.io/badge/Portfolio-ayushsoni25.com-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=22D3EE" alt="Portfolio" title="Full case studies & impact log" /></a>
   <a href="https://linkedin.com/in/⟦LINKEDIN_HANDLE⟧"><img src="https://img.shields.io/badge/LinkedIn-Connect-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=22D3EE" alt="LinkedIn" /></a>
   <a href="mailto:⟦EMAIL⟧"><img src="https://img.shields.io/badge/Email-Reach%20out-8B5CF6?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" /></a>
 </p>
@@ -42,6 +51,8 @@ $ cat about.json
 {
   "role": "Senior Associate, Dynamics 365 CRM & AI Solutions",
   "company": "PwC",
+  "location": "⟦CITY, COUNTRY⟧",
+  "open_to_relocation": ⟦true/false⟧,
   "experience": "5+ years",
   "certifications": 8,
   "focus": ["D365 CRM", "Power Platform", "Azure", "AI Agent Engineering"],
@@ -74,6 +85,9 @@ I architect enterprise **Dynamics 365 CRM & Power Platform** systems, and increa
 
 + Introduced a Cursor- and Claude-powered testing workflow that
 + auto-generates test cases straight from code changes.
+
++ Redesigned enterprise approval frameworks, reducing processing
++ time by ~35%.
 ```
 
 **→ [Full case studies & impact log on the portfolio](https://ayushsoni25.com/#impact)**
@@ -82,21 +96,53 @@ I architect enterprise **Dynamics 365 CRM & Power Platform** systems, and increa
 
 <br />
 
+### 🧩 How the orchestrator agent works
+
+<sub>One diagram beats a paragraph of claims — this is the actual shape of the multi-agent workflow referenced above.</sub>
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': '#8B5CF6', 'primaryTextColor': '#F1F5F9', 'primaryBorderColor': '#22D3EE', 'lineColor': '#22D3EE', 'secondaryColor': '#22D3EE', 'tertiaryColor': '#070B14'}}}%%
+flowchart LR
+    A[Code change / PR opened] --> B{Orchestrator Agent}
+    B --> C[Test-Generation Agent]
+    B --> D[PR-Review Agent]
+    B --> E[QA Scenario Agent]
+    C --> F[Auto-generated test cases]
+    D --> G[Convention & edge-case flags]
+    E --> H[QA scenarios from code diff]
+    F --> I[Managed workflow output]
+    G --> I
+    H --> I
+```
+
+<br />
+
+### 🎯 Signature build — client project-closure automation
+
+| | |
+|---|---|
+| **Problem** | Manual, multi-entity project closure with no way to validate readiness before committing — slow, error-prone, hard to audit. |
+| **Approach** | Automated live data validation, built a pass/fail readiness dashboard, and orchestrated multi-entity closure end-to-end. |
+| **Stack** | Power Platform · Dynamics 365 · Cursor AI · Claude · Copilot |
+| **Outcome** | Turned a manual, multi-step closure process into a validated, repeatable one — accelerating delivery for the client. |
+
+<br />
+
 ### 🛠️ Stack
 
 <p>
-  <img src="https://img.shields.io/badge/Dynamics_365-8B5CF6?style=flat-square&logo=microsoftdynamics365&logoColor=F1F5F9" />
-  <img src="https://img.shields.io/badge/Power_Platform-8B5CF6?style=flat-square&logo=powerapps&logoColor=F1F5F9" />
-  <img src="https://img.shields.io/badge/Azure-22D3EE?style=flat-square&logo=microsoftazure&logoColor=070B14" />
-  <img src="https://img.shields.io/badge/C%23-8B5CF6?style=flat-square&logo=csharp&logoColor=F1F5F9" />
-  <img src="https://img.shields.io/badge/TypeScript-22D3EE?style=flat-square&logo=typescript&logoColor=070B14" />
-  <img src="https://img.shields.io/badge/SQL-8B5CF6?style=flat-square&logo=microsoftsqlserver&logoColor=F1F5F9" />
+  <img src="https://img.shields.io/badge/Dynamics_365-8B5CF6?style=flat-square&logo=microsoftdynamics365&logoColor=F1F5F9" title="Enterprise CRM architecture & plugin development" />
+  <img src="https://img.shields.io/badge/Power_Platform-8B5CF6?style=flat-square&logo=powerapps&logoColor=F1F5F9" title="Canvas Apps, Power Automate, Power Pages" />
+  <img src="https://img.shields.io/badge/Azure-22D3EE?style=flat-square&logo=microsoftazure&logoColor=070B14" title="Functions, Logic Apps, DevOps pipelines" />
+  <img src="https://img.shields.io/badge/C%23-8B5CF6?style=flat-square&logo=csharp&logoColor=F1F5F9" title="Custom plugins & workflow extensions" />
+  <img src="https://img.shields.io/badge/TypeScript-22D3EE?style=flat-square&logo=typescript&logoColor=070B14" title="Front-end tooling & automation scripts" />
+  <img src="https://img.shields.io/badge/SQL-8B5CF6?style=flat-square&logo=microsoftsqlserver&logoColor=F1F5F9" title="Data modeling & integration queries" />
   <br />
-  <img src="https://img.shields.io/badge/Copilot_Studio-22D3EE?style=flat-square&logo=microsoft&logoColor=070B14" />
-  <img src="https://img.shields.io/badge/RAG-8B5CF6?style=flat-square&logo=openai&logoColor=F1F5F9" />
-  <img src="https://img.shields.io/badge/Multi--Agent_Orchestration-22D3EE?style=flat-square&logo=robotframework&logoColor=070B14" />
-  <img src="https://img.shields.io/badge/Cursor-8B5CF6?style=flat-square&logo=cursor&logoColor=F1F5F9" />
-  <img src="https://img.shields.io/badge/Claude-22D3EE?style=flat-square&logo=anthropic&logoColor=070B14" />
+  <img src="https://img.shields.io/badge/Copilot_Studio-22D3EE?style=flat-square&logo=microsoft&logoColor=070B14" title="Generative-AI features embedded in CRM workflows" />
+  <img src="https://img.shields.io/badge/RAG-8B5CF6?style=flat-square&logo=openai&logoColor=F1F5F9" title="Retrieval-augmented chatbots grounded in user-specific data" />
+  <img src="https://img.shields.io/badge/Multi--Agent_Orchestration-22D3EE?style=flat-square&logo=robotframework&logoColor=070B14" title="Orchestrator agent coordinating review, test-gen & QA sub-agents" />
+  <img src="https://img.shields.io/badge/Cursor-8B5CF6?style=flat-square&logo=cursor&logoColor=F1F5F9" title="AI-assisted development workflow" />
+  <img src="https://img.shields.io/badge/Claude-22D3EE?style=flat-square&logo=anthropic&logoColor=070B14" title="AI-assisted development workflow" />
 </p>
 
 <br />
@@ -121,4 +167,6 @@ I architect enterprise **Dynamics 365 CRM & Power Platform** systems, and increa
 <i>Open to Dynamics 365, Power Platform & AI Engineering collaborations.</i>
 <br />
 <a href="https://ayushsoni25.com">ayushsoni25.com</a> · <a href="mailto:⟦EMAIL⟧">⟦EMAIL⟧</a>
+<br /><br />
+<sub>Last updated: August 2026</sub>
 </div>
